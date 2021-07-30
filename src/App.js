@@ -1,4 +1,5 @@
 import React from "react";
+import Radio from "./Form/Radio";
 
 const perguntas = [
   {
@@ -42,7 +43,27 @@ const App = () => {
     }, {})
   );
 
-  return <form></form>;
+  function handleChange({ target }) {
+    setRespostas({ ...respostas, [target.id]: target.value });
+  }
+
+  function handleSubmit(event) {
+    event.preventDefault();
+  }
+
+  return (
+    <form onSubmit={handleSubmit}>
+      {perguntas.map((pergunta) => (
+        <Radio
+          key={pergunta.id}
+          value={respostas[pergunta.id]}
+          onChange={handleChange}
+          {...pergunta}
+        />
+      ))}
+      <button>Próxima</button>
+    </form>
+  );
 };
 
 export default App;
