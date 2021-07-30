@@ -1,6 +1,7 @@
 import React from "react";
 
-const Radio = ({ pergunta, options, id, value, onChange }) => {
+const Radio = ({ pergunta, options, id, value, onChange, active }) => {
+  if (!active) return null;
   return (
     <fieldset>
       <legend>{pergunta}</legend>
