@@ -1,5 +1,6 @@
 import React from "react";
 import Radio from "./Form/Radio";
+import "./App.css";
 
 const perguntas = [
   {
@@ -68,7 +69,9 @@ const App = () => {
     const corretas = perguntas.filter(
       ({ resposta, id }) => respostas[id] === resposta
     );
-    setResultado(`Você acertou ${corretas.length} de ${perguntas.length}`);
+    setResultado(
+      `Você acertou ${corretas.length} de ${perguntas.length} questões`
+    );
   }
 
   return (
@@ -82,7 +85,7 @@ const App = () => {
           {...pergunta}
         />
       ))}
-      {!resultado ? <button>Próxima</button> : resultado}
+      {!resultado ? <button>Próxima</button> : <p>{resultado}</p>}
     </form>
   );
 };

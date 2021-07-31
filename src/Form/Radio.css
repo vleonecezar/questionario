@@ -1,0 +1,24 @@
+fieldset {
+  max-width: 600px;
+  border-radius: 5px;
+  padding: 25px 0 25px 15px;
+  margin-bottom: 10px;
+}
+
+fieldset legend {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+label {
+  display: flex;
+  font-size: 18px;
+}
+
+input {
+  margin-right: 8px;
+}
+
+label:nth-of-type(2) {
+  margin: 20px 0;
+}

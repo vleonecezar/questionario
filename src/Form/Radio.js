@@ -1,4 +1,5 @@
 import React from "react";
+import "./Radio.css";
 
 const Radio = ({ pergunta, options, id, value, onChange, active }) => {
   if (!active) return null;
