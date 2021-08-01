@@ -30,5 +30,5 @@ quantos foram os acertos em relação ao total de perguntas.
 ### Web
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="DragonBallWebSite" src="./src/assets/readme/about-screen.jpeg" width="400px">
+  <img alt="" src="./questionario-react-readme.gif" width="690">
 </p>
