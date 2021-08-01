@@ -39,23 +39,26 @@ const perguntas = [
 
 const App = () => {
   const [respostas, setRespostas] = React.useState(
-    perguntas.reduce((acc, item) => {
-      return { ...acc, [item.id]: "" };
+    perguntas.reduce((acc, pergunta) => {
+      return { ...acc, [pergunta.id]: "" };
     }, {})
   );
-
   const [slide, setSlide] = React.useState(0);
   const [resultado, setResultado] = React.useState(false);
 
+  // Atualiza o estado das respostas de acordo com item selecionado
   function handleChange({ target }) {
     setRespostas({ ...respostas, [target.id]: target.value });
   }
 
+  // Previne o envio do form e executa função de slide.
   function handleSubmit(event) {
     event.preventDefault();
     handleSlide();
   }
 
+  // Atualiza o estado do slide, avançando p/ próxima questão.
+  // esconde as questões, botão e executa função de resultado.
   function handleSlide() {
     if (slide < perguntas.length - 1) {
       setSlide(slide + 1);
@@ -65,6 +68,7 @@ const App = () => {
     }
   }
 
+  // filtra respostas corretas e exibe resultado na tela final.
   function handleResultado() {
     const corretas = perguntas.filter(
       ({ resposta, id }) => respostas[id] === resposta
