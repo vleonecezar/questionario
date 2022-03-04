@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/questionario-reactjs/static/css/main.280da24d.chunk.css",
+    "main.js": "/questionario-reactjs/static/js/main.27a31bfe.chunk.js",
+    "main.js.map": "/questionario-reactjs/static/js/main.27a31bfe.chunk.js.map",
+    "runtime-main.js": "/questionario-reactjs/static/js/runtime-main.02fa2a11.js",
+    "runtime-main.js.map": "/questionario-reactjs/static/js/runtime-main.02fa2a11.js.map",
+    "static/js/2.ac2fd8a4.chunk.js": "/questionario-reactjs/static/js/2.ac2fd8a4.chunk.js",
+    "static/js/2.ac2fd8a4.chunk.js.map": "/questionario-reactjs/static/js/2.ac2fd8a4.chunk.js.map",
+    "index.html": "/questionario-reactjs/index.html",
+    "static/css/main.280da24d.chunk.css.map": "/questionario-reactjs/static/css/main.280da24d.chunk.css.map",
+    "static/js/2.ac2fd8a4.chunk.js.LICENSE.txt": "/questionario-reactjs/static/js/2.ac2fd8a4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.02fa2a11.js",
+    "static/js/2.ac2fd8a4.chunk.js",
+    "static/css/main.280da24d.chunk.css",
+    "static/js/main.27a31bfe.chunk.js"
+  ]
+}
