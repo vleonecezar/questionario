@@ -1,44 +1,61 @@
-# Questionário React 🤔
-
 <div align="center">
-  <a href="#-sobre">Sobre</a> | <a href="#-tecnologias">Tecnologias</a> | <a href="#-teste-a-aplicação">Teste a Aplicação</a> 
+  
+![1169549](https://user-images.githubusercontent.com/76831929/171972964-f2b68950-43da-4931-b929-a93288032d6c.png)
+  
+# Questionário React
+
+#### Questionário Com 4 Perguntas Sobre React JS
+
+[Funcionalidades](#funcionalidades) • [Tecnologias](#tecnologias) • [Como Usar](#como-usar)
+
+![2983b4c9-89de-4ff2-90c3-d5db1c22798e](https://user-images.githubusercontent.com/76831929/171976142-8a5fe12d-4b2c-4273-87bc-828d9ea864ac.png)
+
+### [Teste a Aplicação](https://vleonecezar.github.io/questionario-reactjs/)
+
 </div>
-<br>
 
-<div align="center">
+## Funcionalidades
 
-![155422965-d5e0da9d-3a27-4310-a920-3b80aaa56cd7](https://user-images.githubusercontent.com/76831929/156689894-5cee9374-bb39-4e2d-a4a3-ab7c90da640b.gif)
+- Seleção de resposta dentre 4 alternativas.
+- Botão para confirmar resposta.
+- Resultado com número de acertos no final.
 
-</div>
+## Tecnologias
 
-# 👨🏻‍🏫 Sobre
-Um questionário com perguntas sobre React. Ao final de 4 perguntas você recebe o resultado de quantas questões você acertou.
+- [React JS](https://pt-br.reactjs.org/)
 
-# 🤳🏻 Funcionalidades
+## Como usar
 
-- Seleciona uma das possíveis respostas da questão.
-- Confirma resposta e avança para próxima questão.
+> Para clonar e rodar essa aplicação, você vai precisar do Git e Node.js instalados em seu computador.
 
-# 🚀 Tecnologias
+#### No seu terminal:
 
-- <a href="https://pt-br.reactjs.org/tutorial/tutorial.html" target="_blank">React</a> <br>
+#### Clone o repositório
 
-# 👨🏻‍💻 Teste a aplicação
-Você pode testar a aplicação <a href="https://vleonecezar.github.io/questionario-reactjs/" target="_blank">clicando aqui</a>. <br>
-
-  ### Clone o repositório
 ```
   git clone https://github.com/vleonecezar/questionario-reactjs.git
 ```
-  ### Instale todos os pacotes
+
+#### Abra o repositório
+
+```
+  cd questionario-reactjs
+```
+
+#### Instale as dependências
+
 ```
   npm install
 ```
-  ### Abra a aplicação localmente
+
+#### Rode o app
+
 ```
   npm start
 ```
-  ### Deixe a aplicação pronta para produção
-```
-  npm run build
-```
+
+<hr />
+<div align="center">
+<a href="https://www.linkedin.com/in/vitor-leone-cezar/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+<a href="mailto:vleone.job@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+</div>
