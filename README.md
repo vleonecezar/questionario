@@ -8,7 +8,7 @@
 
 [Funcionalidades](#funcionalidades) • [Tecnologias](#tecnologias) • [Como Usar](#como-usar)
 
-![2983b4c9-89de-4ff2-90c3-d5db1c22798e](https://user-images.githubusercontent.com/76831929/171976142-8a5fe12d-4b2c-4273-87bc-828d9ea864ac.png)
+![47bb5f67-4c41-45af-bf61-4b30c97ed862](https://user-images.githubusercontent.com/76831929/171976678-9286e49a-1a13-492b-8076-3db5e6f42988.png)
 
 ### [Teste a Aplicação](https://vleonecezar.github.io/questionario-reactjs/)
 
